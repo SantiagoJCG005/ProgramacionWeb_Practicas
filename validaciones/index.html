@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="validaciones.css">
+	<title>Validaciones</title>
+</head>
+<body>
+
+<h1>Ejemplo Validaciones</h1>
+<hr>
+
+
+<form action="">
+<label for="username">Usuario:</label>
+  <input type="text" name="username" placeholder="Por ejemplo, Juan"
+          minlength="5" maxlength="40">
+  <label for="contraseña">Contraseña:</label>
+  <input type="password" name="password" placeholder="Contraseña"
+          minlength="11">
+<br><br>
+  <label for="Edad">Edad:</label>
+  <input type="number" name="age" placeholder="25"
+          min="18" max="60">
+  <label for="FechaInicio">Fecha Inicio</label>
+  <input type="date" name="date" placeholder="2024-07-22"
+          min="2024-01-01" max="2024-12-01"> <br><br>
+
+<input type="text" name="username" placeholder="ManzDev"
+         minlength="5" maxlength="40" required pattern="[A-Za-z0-9]+"> <br> <br>
+<input type="submit">
+</form>
+
+</body>
+</html>
