@@ -1,0 +1,46 @@
+body{
+  background-color: #5499c7 ;
+}
+
+#form{
+ 
+    border: 2px solid #f5b7b1 ; 
+    border-radius: 10px;       
+    width: 300px;
+    height: 350px;
+    padding: 20px;            
+    background-color: #f8f9fa; 
+    margin: auto;
+}
+label{
+  color:#2874a6 ;
+  font-size: 19px;
+  font-family: fantasy;
+
+}
+.Titulo{
+  color: #ec7063;
+  font-family: fantasy;
+  font-size:50px;
+  width: 500px;
+  height: 95px;
+}
+
+input,textarea {
+  padding: 5px;
+  color: #212f3d;
+  border-radius: 5px;
+}
+
+::placeholder {
+  color: darkgreen;
+}
+
+:is(input, textarea):invalid {
+  
+  border: 2px solid red;
+}
+
+:is(input, textarea):valid {
+ border: 2px solid green;
+}

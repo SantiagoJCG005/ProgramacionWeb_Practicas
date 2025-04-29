@@ -1,0 +1,45 @@
+body{
+	background-color: #ec7063;
+}
+h1{
+	color: ##138d75;
+	font-family: sans-serif;
+	font-size: 50px;
+}
+h2{
+	color: #2e4053;
+	font-family: sans-serif;
+	font-size: 25px;
+}
+#cuerpo{
+width:400px;
+height: 500px;
+border: 3px solid #48c9b0;
+border-radius: 15px;
+padding: 20px;
+margin: auto;
+background-color: #76d7c4;
+}
+label{
+	color:#2e4053  ;
+	font-family: fantasy;
+	font-size: 20px;
+}
+input,textarea {
+  padding: 5px;
+  color: #212f3d;
+  border-radius: 5px;
+}
+
+::placeholder {
+  color: darkgreen;
+}
+
+:is(input, textarea):invalid {
+  
+  border: 2px solid red;
+}
+
+:is(input, textarea):valid {
+ border: 2px solid green;
+}

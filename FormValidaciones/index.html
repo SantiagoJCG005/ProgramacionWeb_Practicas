@@ -3,34 +3,40 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="style.css">
-	<title> Formulario</title>
+	 <link rel="stylesheet" type="text/css" href="style.css">
+	<title>Validaciones</title>
 </head>
-<body id="cont">
-<form>
-	
- <h1>Formulario</h1>
+<body>
 
-	<label for="fname">Nombre:</label>
-    <input type="text" id="name" name="name"><br><br>
+ <center><h1 class="Titulo">Datos del Usuario</h1></center>
+ <div id="form">  
+ 	
+<center><form autocomplete="on">
+	
+    <label for="fname">Nombre:</label>
+    <input type="text" id="name" name="name"   minlength="5" maxlength="40" required><br><br>
+
     <label for="fapellido">Apellidos:</label>
-    <input type="text" id="apellidos" name="apellidos"><br><br>
+    <input type="text" id="apellidos" name="apellidos" minlength="5" maxlength="40" required><br><br>
+
+    <label for="Edad">Edad:</label>
+    <input type="number" name="age" placeholder="18" min="18" max="60" required> <br><br>
 
 	<label for="email">Email:</label>
-    <input type="email" id="email" name="email"><br><br>
+    <input type="email" id="email" name="email" required><br><br>
      
     <label for="tel">Teléfono:</label>
-    <input type="tel" id="tel" name="tel"><br><br>
+    <input type="tel" id="tel" name="tel" maxlength="10" required><br><br>
 
     <label>Género:</label> <br>
-    <input type="radio" id="masculino" name="genero" value="masculino">
+    <input type="radio" id="masculino" name="genero" value="masculino" required>
     <label for="masculino">Masculino</label>
-    <input type="radio" id="femenino" name="genero" value="femenino">
+    <input type="radio" id="femenino" name="genero" value="femenino" required>
     <label for="femenino">Femenino</label>
     <br><br>
 
      <label for="select">Municipio:</label>
-        <select id="select" name="select">
+        <select id="select" name="select" required>
             <option value="opcion1">Othon P. Blanco</option>
             <option value="opcion2">Bacalar</option>
             <option value="opcion3">Jose Maria Morelos</option>
@@ -43,19 +49,15 @@
             <option value="opcion10">Cozumel</option>
         </select> 
         <br><br>
-    <label for="datetime">Fecha y Hora:</label>
-    <input type="datetime-local" id="datetime" name="datetime"><br><br>
 
-    <label for="checkbox">Acepto los términos:</label>
-        <input type="checkbox" id="checkbox" name="checkbox"><br><br>
-        <button type="submit">Enviar</button>
-        <button type="reset">Resetear</button>
- 	
-
-
+ <button type="submit" ><a href=".\form2.html">Siguiente</a></button>
 
 
 
 </form>
+
+ </div></center>
+
+
 </body>
 </html>

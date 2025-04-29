@@ -1,0 +1,14 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 3fr 2fr;
+  background-color: darkblue;
+  gap: 10px;
+}
+
+.item{
+  background-color: lightcoral;
+  padding: 30px;
+  border: 10px solid darkblue;
+}
+
