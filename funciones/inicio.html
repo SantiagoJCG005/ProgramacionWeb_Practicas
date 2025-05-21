@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ejemplo de funciones en JS</title>
+	<script src="biblioteca.js"></script>
+</head>
+<body>
+	<h1>Uso de funciones</h1>
+	<div id="contenido"></div>
+
+	<script>
+		//const divContenido = document.getElementById("contenido");
+		const divContenido = document.querySelector("#contenido");
+
+		if (divContenido){
+			divContenido.innerHTML = fibonacci(10);	
+			divContenido.innerHTML = divContenido.innerHTML + "<br />" + usaFibonacci(20);
+			divContenido.innerHTML = divContenido.innerHTML + "<br />" + objetoFibonacci(30);
+			divContenido.innerHTML = divContenido.innerHTML + "<br />" + arrowFibonacci(3);
+		}
+	</script>
+</body>
+</html>
