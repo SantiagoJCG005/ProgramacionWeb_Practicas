@@ -51,9 +51,13 @@
  var parrafoAnterior = resultado.firstChild;
  // Si ya existía un párrafo de resultado anterior, sustituirlo. Si no, añadirlo
  if(parrafoAnterior != null) {
+
  resultado.replaceChild(parrafoMayor, parrafoAnterior);
+
  }
  else {
+
  resultado.appendChild(parrafoMayor);
+ 
  }
  }

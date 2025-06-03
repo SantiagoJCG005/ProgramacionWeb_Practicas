@@ -1,0 +1,10 @@
+<clientes>
+<!-- El primer cliente -->
+  <cliente>
+    <nombre>Empresa SA</nombre>
+    <sector>Tecnologia</sector>
+    <notas><![CDATA[
+    Llamar la proxima semana
+    ]]></notas>
+  </cliente>
+</clientes>
