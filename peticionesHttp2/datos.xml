@@ -8,4 +8,11 @@
     Llamar la proxima semana
     ]]></notas>
   </cliente>
+  <cliente>
+    <nombre>Computocho</nombre>
+    <sector>Tecnologia</sector>
+    <notas><![CDATA[
+    Entregas pendientes
+    ]]></notas>
+  </cliente>
 </clientes>
